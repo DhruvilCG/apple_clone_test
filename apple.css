@@ -6,6 +6,7 @@ html , body {
 body {
     width: 100%;
     height: 100%;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .header1Justify {
@@ -14,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fafafc;
 }
 
 .header1 {
@@ -23,11 +25,105 @@ body {
     grid-template-columns: 3vw 5vw 4.3vw 4.5vw 5.7vw 5.3vw 5.2vw 5.5vw 7.9vw 8.5vw 8vw 6vw 4vw 0vw ;
     grid-template-rows: 1fr;
     font-size: small;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     align-items: center;
     justify-content: center;
 }
 
 .header1 > a > img {
     width: 1vw;
+}
+
+.header2Justify {
+    width: 100%;
+    height: 22vh;
+}
+
+.header2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(13 , 1fr);
+    grid-template-rows: 1fr;
+    padding-left: 30px;
+    background-color: #fafafc;
+    padding-bottom:15px;
+}
+
+.header2 > div {
+    height: 100%;
+    width: 100%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header2 > div > p > img {
+    width: 100%;
+}
+
+
+.header2 > div > p {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 10px;
+}
+
+.model1 {
+    opacity: 0.6;
+}
+
+.model1 {
+    text-align: center;
+}
+
+.new {
+    font-size: x-small;
+    color: darkred;
+    text-align: center;
+}
+
+.offer {
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 7vh;
+    font-size: 14px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer > a {
+    text-decoration: none;
+    color: #0076b5 ;
+}
+
+.watchV1 {
+    width: 100%;
+    height: 140vh;
+}
+
+.text {
+    width: 100%;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bold {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.light {
+    font-size: 25px;
+}
+
+video {
+    height: 99vh;
+    width: 100%;
+    border-radius: 50px;
 }
